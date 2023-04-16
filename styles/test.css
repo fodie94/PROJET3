@@ -145,10 +145,7 @@
   animation-name: anim;
   animation-duration: 4s;
     }
-    svg{
-        color: white;
-        width: 0px;
-    }
+    
     .menu-fr-cart-contain-animation:hover svg{
     width: 20px;
     animation-name: rota;
