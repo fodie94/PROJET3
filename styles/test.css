@@ -108,6 +108,17 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        animation-name: aa;
+        opacity: 0;
+        animation: aa 2000ms forwards;
+    }
+    .menu-fr-cart-contain-animation:nth-child(2){animation-delay: 1000ms;}
+    .menu-fr-cart-contain-animation:nth-child(3){animation-delay: 1250ms;}
+    .menu-fr-cart-contain-animation:nth-child(4){animation-delay: 1628ms;}
+   
+     @keyframes aa{
+        0% {opacity: 0;}
+        100% { opacity: 1; }
     }
     .menu-fr-cart-contain-title{
         padding: 12px 0 12px 15px;  
@@ -151,6 +162,11 @@
     animation-name: rota;
     animation-duration: 2s;
     position: relative;
+}
+
+.anim{
+    width: 0;
+    overflow: hidden;
 }
 
 @keyframes anim {
@@ -244,6 +260,7 @@
     }
     
     .footer-content-icon p{
+        display: flex;
         gap: 11px;
     }
 
