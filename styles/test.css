@@ -57,6 +57,25 @@
     line-height: 41px;
     height: 41px;
     }
+
+    .fa-stack {
+        width: 22px;
+        height: 21px;
+        line-height: 21px;
+      }
+      .fa-heart {
+        width: 22px;
+        height: 21px;
+      }
+
+    .fas.fa-heart{   
+        color: transparent;
+        transition: all 200ms;
+    }
+    .fa-stack:hover .fas.fa-heart{
+    color: #9356DC;
+    }
+
     .menu-fr-bloc{
      padding: 0 190px;
     }
@@ -83,6 +102,7 @@
         flex-direction: column;
         gap: 12px;
         width: 100%;
+        padding: 0 12px;
     }
     
     .menu-fr-cart-contain h3{
@@ -125,15 +145,19 @@
         display: flex;
         justify-content: space-between;
         flex: 1;
+        padding: 10px 20px; 
       
     }
     .menu-fr-cart-contain-title{
-        padding: 12px 0 12px 15px;  
+        /* padding: 12px 0 12px 15px;   */
         /* width: 75%; */
         display: flex;
         flex-direction: column;
         gap: 5px;
-        
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      
     
     }
     .menu-fr-cart-contain-prix{
@@ -157,7 +181,7 @@
     background-color: #99E2D0;
    border-radius: 0 25px 25px 0;
     border: 1px solid #99E2D0;
-    transition:width 4s;
+    transition:width 2s;
     /* position: relative;
   animation-name: anim;
   animation-duration: 4s; */
@@ -166,7 +190,7 @@
     .menu-fr-cart-contain-animation:hover svg{
     width: 20px;
     animation-name: rota;
-    animation-duration: 4s;
+    animation-duration: 1s;
     position: relative;
 }
 
@@ -304,22 +328,20 @@
     height: 41px;
     }
     .menu-fr-bloc{
-     padding: 0 190px;
+     padding: 0 ;
     }
     
     
     .menu-fr-cart-bloc{
         display: flex;
-        flex-direction: column;
-        gap: 40px;
+        flex-direction: row;
+       justify-content: space-between;
     }
     
     .menu-fr-cart{
         display: flex;
         gap: 40px;
-        flex-direction: column;
         background: #F7F7F7; 
-        padding: 50px 200px;
         transform: translateY(-38px);
         border-radius: 20px 20px 0 0;
     }
@@ -355,7 +377,6 @@
     }
     .menu-fr-cart-contain-title{
         padding: 12px 0 12px 15px;  
-        width: 87%;
         display: flex;
         flex-direction: column;
         gap: 5px;

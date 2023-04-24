@@ -66,7 +66,7 @@ line-height: 19px;
     flex-direction: column;
     padding: 30px;
     align-items: center;
-    gap: 20px;
+    gap: 27px;
     background: #F7F7F7;
    
 }
@@ -135,6 +135,7 @@ box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
     flex-direction: column;
     gap: 10px;
     padding: 0 25px;
+    margin-top: 48px;
 }
 .step-row{
     display: flex;
@@ -167,6 +168,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 19px;
+gap: 27px;
 
 }
 
@@ -214,12 +216,17 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 19px;
+align-items: center;
 }
 
 .menu{
     display: flex;
     flex-direction: column;
     background: #F7F7F7;
+    margin-top: 54px;
+    padding: 0 15px;
+    padding-top: 54px;
+    padding-bottom: 66px;
    
 }
 .menu h2{
@@ -237,7 +244,8 @@ margin-bottom: 20px;
 .menu-grid{
     display: flex;
     flex-direction: column;
-    gap: 10px;  
+    gap: 18px;  
+    
 }
 
 
@@ -288,6 +296,24 @@ padding: 7px 9px;
     object-fit: cover;
 }
 
+.fa-stack {
+    width: 22px;
+    height: 21px;
+    line-height: 21px;
+  }
+  .fa-heart {
+    width: 22px;
+    height: 21px;
+  }
+
+.fas.fa-heart{   
+    color: transparent;
+    transition: all 200ms;
+}
+.fa-stack:hover .fas.fa-heart{
+color: #9356DC;
+}
+
 .bottom-menu{
     display: flex;
     align-items: baseline;
@@ -320,6 +346,7 @@ line-height: 21px;
  }
 
 .footer{
+    
     display: flex;
     flex-direction: column;
     padding: 0;
