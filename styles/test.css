@@ -300,6 +300,11 @@
         order: -2;
     }
 
+    .email{
+        color: #fff;
+    text-decoration: none;
+    }
+
 @media screen and (min-width: 992px){
 
     .menu-fr-img img{

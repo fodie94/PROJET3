@@ -402,14 +402,17 @@ line-height: 21px;
     display: flex;
     order: -2;
 }
+.email{
+    color: #fff;
+text-decoration: none;
+}
 .footer-ohmyfood p{
     font-family: 'Shrikhand';
     font-style: italic;
     font-weight: 400;
     font-size: 18px;
     line-height: 26px;
-    color: #FFFFFF;
-    
+    color: #FFFFFF;    
 }
 
 @media screen and (min-width: 768px){
