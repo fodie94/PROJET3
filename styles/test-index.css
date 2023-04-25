@@ -344,7 +344,10 @@ line-height: 21px;
     color: #FF79DA;
     padding-left: 150px;   
  }
-
+.button{
+    display: flex;
+    justify-content: center;
+}
 .footer{
     
     display: flex;

@@ -205,7 +205,7 @@ gap: 50px;
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 1075px){
 
     .menu-fr-cart-bloc{
         display: flex;
