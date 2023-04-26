@@ -17,11 +17,51 @@ h1,h2,h3,h4,h5,h6{
       padding: 0;
 }
 
-
-main{
-   
+.loader {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color: hsla(0,0%,100%,.9);  
+    z-index: 10;
+    animation: loader .01s;
+    animation-delay: 1.75s;
+    animation-fill-mode: both;
+ 
 }
 
+@keyframes loader {
+    100% {
+      opacity: 0;
+      z-index: -10;
+    }
+  } 
+
+  .loader-spin {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-bottom: 16px solid blue;
+
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
 .summary-ohmyfood{
         
     text-align: center;
@@ -369,7 +409,6 @@ border: 1px solid #D9D9D9;
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
 box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
 border-radius: 25px;
-
 }
 
 .footer{
@@ -613,7 +652,7 @@ gap: 50px;
     }
 
     .block-menu{
-        height: 500px;        
+        height: 400px;        
     }
 
     .top-menu{
