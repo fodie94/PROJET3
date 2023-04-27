@@ -142,7 +142,7 @@
         100% { opacity: 1; }
     }
 
-    .test-spin{
+    .menu-cart-contain-bloc-child{
         display: flex;
         justify-content: space-between;
         flex: 1;
