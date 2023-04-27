@@ -311,6 +311,18 @@ background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
         gap: 7px;
         
     }
+
+    .footer-content div a {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        background-color: transparent;
+        text-decoration: none;
+        
+    }
     
     .footer-content-icon{
         display: flex;
