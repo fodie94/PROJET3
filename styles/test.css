@@ -46,8 +46,9 @@
     
     .menu-fr-title{
         display: flex;
-        justify-content: center;
-        margin-top: 20px;
+        justify-content: space-around;
+        margin-top: 32px;
+        margin-bottom: 42px;
         align-items: center;
         gap: 10px;
         font-family: 'Shrikhand';
@@ -89,7 +90,6 @@
     
     .menu-fr-cart{
         display: flex;
-        gap: 40px;
         flex-direction: column;
         background: #F7F7F7; 
         padding: 50px 200px;
@@ -215,7 +215,12 @@
     .button{
         display: flex;
         justify-content: center;
+        margin-bottom: 40px;
+        height: 50px;
+        align-items: center;
+        animation-delay: 2100ms;
     }
+    
     
     .button-text{
        
@@ -247,7 +252,7 @@
 
     .menu-fr-img img {
         width: 100%;
-        height: 220px;
+        height: 275px;
         object-fit: cover;
     }
 
@@ -338,6 +343,14 @@ background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
     }
 
 @media screen and (min-width: 992px){
+
+
+    .menu-fr-title{
+        margin-top: 51px;
+        justify-content: center;
+        gap: 24px;
+    }
+
 
 
     .menu-fr-cart {
@@ -452,6 +465,8 @@ background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
     .button{
         display: flex;
         justify-content: center;
+        height: 50px;
+        align-items: center;
     }
     
     .button-text{
