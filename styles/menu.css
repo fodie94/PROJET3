@@ -159,8 +159,12 @@ white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-  
+}
 
+.menu-cart-contain-bloc-title h4,.menu-cart-contain-bloc-title p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .menu-cart-contain-bloc-prix{
     display: flex;
