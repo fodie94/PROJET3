@@ -171,20 +171,36 @@ font-style: normal;
 font-weight: 700;
 }
 
-.menu-cart-contain-bloc:hover .menu-cart-contain-bloc-spin{
-    display: flex;
-justify-content: center;
-align-items: center;
-width: 15%;
-height: 100%;
-font-size: 25px;
-color: white;
-background-color: #99E2D0;
-border-radius: 0 25px 25px 0;
-border: 1px solid #99E2D0;
-transition:width 2s;
-}
 
+.menu-cart-contain-bloc:hover .menu-cart-contain-bloc-spin{
+
+    animation-name:in;
+    animation-duration: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 100%;
+    font-size: 25px;
+    color: white;
+    background-color: #99E2D0;
+    border-radius: 0 25px 25px 0;
+    border: 1px solid #99E2D0;
+
+}
+.menu-cart-contain-bloc-spin{
+    animation-name:out;
+    animation-duration: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 25px;
+    color: white;
+    background-color: #99E2D0;
+    border-radius: 0 25px 25px 0;
+    border: 1px solid #99E2D0;
+}
 .menu-cart-contain-bloc:hover svg{
 width: 20px;
 animation-name: rota;
@@ -196,13 +212,22 @@ position: relative;
 
 width: 0;   
 overflow: hidden;
+border: 0;
 }
 
 
 @keyframes rota {
 from {transform: rotate(0deg); }
 to { transform: rotate(360deg); }
+}
 
+@keyframes in{
+    from{width: 0;}
+    to{width: 15%;}
+}
+@keyframes out{
+    from{width: 15%;}
+    to{width: 0;}
 }
 .button{
     display: flex;
