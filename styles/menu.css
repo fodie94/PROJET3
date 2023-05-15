@@ -387,13 +387,13 @@ text-decoration: none;
 
 
 .menu-cart {
-    padding: 0 210px;
+    padding: 0 15%;
     transform: translateY(-45px);
     border-radius: 40px 40px 0 0;
 }
 
 .menu-bloc {
-    padding: 0 190px;
+    padding: 0 13%;
     background: #F7F7F7;
 }
 
