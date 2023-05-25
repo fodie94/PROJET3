@@ -128,16 +128,16 @@ text-transform: uppercase;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    animation-name: aa;
+    animation-name: animation-apparition;
     opacity: 0;
-    animation: aa 2000ms forwards;
+    animation: animation-apparition 2000ms forwards;
 }
 .menu-cart-contain-bloc:nth-child(2){animation-delay: 1000ms;}
 .menu-cart-contain-bloc:nth-child(3){animation-delay: 1250ms;}
 .menu-cart-contain-bloc:nth-child(4){animation-delay: 1628ms;}
 .menu-cart-contain-bloc:nth-child(5){animation-delay: 1928ms;}
 
- @keyframes aa{
+ @keyframes animation-apparition{
     0% {opacity: 0;}
     100% { opacity: 1; }
 }
