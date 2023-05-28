@@ -161,10 +161,27 @@ white-space: nowrap;
     white-space: nowrap;
 }
 
-.menu-cart-contain-bloc-title h4,.menu-cart-contain-bloc-title p{
+.menu-cart-contain-bloc-title h4{
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+}
+.menu-cart-contain-bloc-title p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 21px;
 }
 .menu-cart-contain-bloc-prix{
     display: flex;
