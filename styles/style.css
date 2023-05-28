@@ -177,7 +177,7 @@ background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
     gap: 10px;
   
 }
-.step h2{
+article{
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -263,7 +263,7 @@ align-items: center;
     padding-bottom: 66px;
    
 }
-.menu h2{
+article{
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -369,6 +369,14 @@ font-weight: 700;
 font-size: 18px;
 line-height: 21px;
 }
+.text-menu h2{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+}
+
 
 .text-menu p{
     font-weight: 300;

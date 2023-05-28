@@ -44,7 +44,7 @@ h1,h2,h3,h4,h5,h6,p,i{
     width: 100%;
 }
 
-.menu-cart-title{
+.menu-cart-title {
     display: flex;
     justify-content: space-around;
     margin-top: 32px;
@@ -52,6 +52,15 @@ h1,h2,h3,h4,h5,h6,p,i{
     align-items: center;
     gap: 10px;
     font-family: 'Shrikhand';
+font-style: italic;
+font-weight: 400;
+font-size: 28px;
+line-height: 41px;
+height: 41px;
+}
+
+.menu-cart-title h1{
+font-family: 'Shrikhand';
 font-style: italic;
 font-weight: 400;
 font-size: 28px;
@@ -105,7 +114,7 @@ color: #9356DC;
     padding: 0 12px;
 }
 
-.menu-cart-contain h3{
+article{
     border-bottom: 3px solid #99E2D0;
     width: 50px;
     font-family: 'Roboto';
@@ -161,7 +170,7 @@ white-space: nowrap;
     white-space: nowrap;
 }
 
-.menu-cart-contain-bloc-title h4{
+.menu-cart-contain-bloc-title h2{
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
