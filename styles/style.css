@@ -342,7 +342,7 @@ padding: 7px 9px;
 
 .fas.fa-heart{   
     color: transparent;
-    transition: all 200ms;
+    transition: all 1s;
 }
 .fa-stack:hover .fas.fa-heart{
 color: #9356DC;
