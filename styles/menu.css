@@ -35,11 +35,11 @@ h1,h2,h3,h4,h5,h6,p,i{
     }
     .menu-cart-title {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 32px;
     margin-bottom: 42px;
     align-items: center;
-    gap: 10px;
+    padding: 0 41px 0 17px;
     font-family: 'Shrikhand';
     font-style: italic;
     font-weight: 400;
@@ -94,7 +94,7 @@ h1,h2,h3,h4,h5,h6,p,i{
     width: 100%;
     padding: 0 12px;
     }
-    article{
+    .menu-cart-contain h2{
     border-bottom: 3px solid #99E2D0;
     width: 50px;
     font-family: 'Roboto';
@@ -143,7 +143,7 @@ h1,h2,h3,h4,h5,h6,p,i{
     text-overflow: ellipsis;
     white-space: nowrap;
     }
-    .menu-cart-contain-bloc-title h2{
+    .menu-cart-contain-bloc-title h3{
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -354,6 +354,10 @@ h1,h2,h3,h4,h5,h6,p,i{
     padding: 0 15%;
     transform: translateY(-45px);
     border-radius: 40px 40px 0 0;
+    }
+    .menu-cart-title{
+        justify-content: center;
+        gap: 40px;
     }
     .menu-bloc {
     padding: 0 13%;
