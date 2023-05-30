@@ -142,7 +142,7 @@ p,h1,h2,h3,i,a{
     flex-direction: column;
     gap: 10px;
     }
-    article{
+    h2{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -202,12 +202,13 @@ p,h1,h2,h3,i,a{
     display: flex;
     gap: 25px;
     text-align: center;
+    align-items: center;
+    }
+    .block-step-content h3{
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    align-items: center;
     }
     .menu{
     display: flex;
